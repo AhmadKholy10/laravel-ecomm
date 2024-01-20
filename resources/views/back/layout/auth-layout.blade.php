@@ -79,7 +79,7 @@
 			</div>
 		</div>
 		<!-- welcome modal start -->
-		<div class="welcome-modal">
+		{{-- <div class="welcome-modal">
 			<button class="welcome-modal-close">
 				<i class="bi bi-x-lg"></i>
 			</button>
@@ -150,7 +150,7 @@
 		</div>
 		<button class="welcome-modal-btn">
 			<i class="fa fa-download"></i> Download
-		</button>
+		</button> --}}
 		<!-- welcome modal end -->
 		<!-- js -->
 		<script src="/back/vendors/scripts/core.js"></script>
