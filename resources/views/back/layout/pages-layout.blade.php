@@ -500,8 +500,44 @@
 			<div class="menu-block customscroll">
 				<div class="sidebar-menu">
 					<ul id="accordion-menu">
-					
+
+						@if (Route::is('admin.*'))
+
+										<li>
+							<a href="{{ route('admin.home') }}" class="dropdown-toggle no-arrow">
+								<span class="micon fa fa-home"></span
+								><span class="mtext">Home</span>
+							</a>
+						</li>
+						
 						<li>
+							<a href="invoice.html" class="dropdown-toggle no-arrow">
+								<span class="micon bi bi-receipt-cutoff"></span
+								><span class="mtext">Invoice</span>
+							</a>
+						</li>
+						<li>
+							<div class="dropdown-divider"></div>
+						</li>
+						<li>
+							<div class="sidebar-small-cap">Settings</div>
+						</li>
+						
+						<li>
+							<a
+								href=""
+								target="_blank"
+								class="dropdown-toggle no-arrow"
+							>
+								<span class="micon fa fa-user"></span>
+								<span class="mtext"
+									>Profile
+									{{-- <img src="/back/vendors/images/coming-soon.png" alt="" width="25"/> --}}
+								</span>
+							</a>
+						</li>
+						@else
+										<li>
 							<a href="calendar.html" class="dropdown-toggle no-arrow">
 								<span class="micon fa fa-home"></span
 								><span class="mtext">Home</span>
@@ -534,6 +570,9 @@
 								</span>
 							</a>
 						</li>
+						@endif
+					
+			
 					</ul>
 				</div>
 			</div>
