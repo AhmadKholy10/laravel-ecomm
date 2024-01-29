@@ -1,5 +1,5 @@
 @extends('back.layout.auth-layout')
-@section('pageTitle', isset($pageTitle)? $pageTitle : 'Dummy Title')
+@section('pageTitle', isset($pageTitle)? $pageTitle : 'Login')
 @section('content')
     <div class="login-box bg-white box-shadow border-radius-10">
 							<div class="login-title">

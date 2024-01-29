@@ -153,7 +153,8 @@ class AdminController extends Controller
                 same:new_password_confirmation',
                 'new_password_confirmation' => 'required'
             ]);
-
+            
+            //Get the token 
             $token = DB::table('password_reset_tokens')
                         ->where(['token'=> $request->token, 'guard'=> constGuards::ADMIN])
                         ->first();
@@ -180,7 +181,8 @@ class AdminController extends Controller
                 );
             
             $mail_body = view('email-templates.admin-reset-email-template', $data)->render();
-
+            
+            //Mail configurations
             $mailConfig = array(
                 'mail_from_email' => env('EMAIL_FROM_ADDRESS'),
                 'mail_from_name' => env('EMAIL_FROM_NAME'),
