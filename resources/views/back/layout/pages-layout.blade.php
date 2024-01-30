@@ -517,6 +517,13 @@
 							</a>
 						</li>
 						<li>
+							<a class="dropdown-toggle no-arrow" href="">
+                                {{-- <i class="bi bi-gear"></i> <!-- Bootstrap gear icon --> --}}
+								<span class="micon bi bi-gear"></span
+									><span class="mtext">Settings</span>
+                            </a>
+						</li>
+						<li>
 							<div class="dropdown-divider"></div>
 						</li>
 						<li>
