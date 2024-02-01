@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="page-header-left">
-                        <h3>إعدادت الموقع
+                        <h3> Settings 
                         </h3>
                     </div>
                 </div>
@@ -20,8 +20,8 @@
                                 <i data-feather="home"></i>
                             </a>
                         </li>
-                        <li class="breadcrumb-item">لوحة التحكم</li>
-                        <li class="breadcrumb-item active">إعدادات الموقع</li>
+                        <li class="breadcrumb-item">dashboard </li>
+                        <li class="breadcrumb-item active">settings</li>
                     </ol>
                 </div>
             </div>
@@ -35,7 +35,7 @@
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-header">
-                        <h5>الاعدادات</h5>
+                        <h5>settings</h5>
                     </div>
                     <div class="card-body">
                         <div class="digital-add needs-validation">
@@ -49,71 +49,73 @@
 
                             <div class="form-group">
                                 <label for="validationCustom05" class="col-form-label pt-0">
-                                    لوجو الموقع</label>
+                                    logo </label>
                                 <input class="form-control" id="validationCustom05" type="file" name="logo">
+                                <img src="">
                             </div>
                             <div class="form-group">
-                                <label class="col-form-label">الصورة المصغرة</label>
+                                <label class="col-form-label">favicon </label>
                                 <input class="form-control" id="validationCustom05" type="file" name="favicon">
+                                <img src="">
                             </div>
 
 
 
                             <div class="form-group">
                                 <label for="validationCustom01" class="col-form-label pt-0"><span>*</span>
-                                    اسم الموقع</label>
+                                    site name </label>
                                 <input class="form-control" id="validationCustom01" type="text" name="name" value="">
                             </div>
 
 
                             <div class="form-group">
-                                <label class="col-form-label">وصف الموقع</label>
+                                <label class="col-form-label">description </label>
                                 <textarea rows="5" cols="12" name="description"></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="validationCustom02" class="col-form-label"><span>*</span>
-                                    البريد الإلكتروني </label>
+                                    email  </label>
                                 <input class="form-control" id="validationCustom02" type="text" name="email" value="">
                             </div>
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0">رقم الهاتف</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0">phone </label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="phone" value="">
                             </div>
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0">العنوان</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0">address</label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="address" value="">
                             </div>
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0">رابط الفيس بوك</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0"> facebook  </label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="facebook" value="">
                             </div>
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0">رابط تويتر</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0">twitter </label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="twitter" value="">
                             </div>
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0">حساب الانستجرام</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0">instagram </label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="instagram" value="">
                             </div>
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0"> اليوتيوب</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0"> youtube</label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="youtube" value="">
                             </div>
 
 
                             <div class="form-group">
-                                <label for="validationCustomtitle" class="col-form-label pt-0">التيك توك</label>
+                                <label for="validationCustomtitle" class="col-form-label pt-0">tiktok </label>
                                 <input class="form-control" id="validationCustomtitle" type="text" name="tiktok" value="">
                             </div>
 
                             <div class="form-group">
-                                <button class="btn btn-primary" type="submit">حفظ</button>
+                                <button class="btn btn-primary" type="submit">save</button>
                             </div>
 
 
@@ -128,5 +130,4 @@
     </div>
     <!-- Container-fluid Ends-->
 </div>
-    
 @endsection
