@@ -17,6 +17,7 @@ Route::prefix('admin')->name('admin.')->group(function(){
         Route::post('/password/reset',[AdminController::class,'doResetPassword'])->name('do-reset-password');
     });
     
+    
     Route::middleware(['auth:admin','PreventBackHistory'])->group(function(){
         Route::view('/home', 'back.pages.admin.home')->name('home');
         Route::view('/settings', 'back.pages.admin.settings')->name('settings');
