@@ -3,7 +3,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 /** SEND EMAIL FUNCTION */
-
 if(!function_exists('sendEmail')){
     function sendEmail($mailConfig){
         require 'PHPMailer/src/Exception.php';
