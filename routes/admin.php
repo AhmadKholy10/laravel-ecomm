@@ -22,6 +22,12 @@ Route::prefix('admin')->name('admin.')->group(function(){
         Route::view('/home', 'back.pages.admin.home')->name('home');
         Route::view('/settings', 'back.pages.admin.settings')->name('settings');
         Route::post('/logout', [AdminController::class, 'logout'])->name('logout');
+
+        ########## Settings routes ###############
+        Route::prefix('/settings')->name('settings.')->group(function(){
+            Route::view('/', 'back.pages.admin.settings')->name('index');
+
+        });
     });
 });
 

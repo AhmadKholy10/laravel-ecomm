@@ -254,7 +254,7 @@
 							<a class="dropdown-item" href="profile.html"
 								><i class="dw dw-user1"></i> Profile</a
 							>
-							<a class="dropdown-item" href="{{ route('admin.settings') }}"
+							<a class="dropdown-item" href="{{ route('admin.settings.index') }}"
 								><i class="dw dw-settings2"></i> Setting</a
 							>
 							<a class="dropdown-item" href="faq.html"
@@ -517,7 +517,7 @@
 							</a>
 						</li>
 						<li>
-							<a class="dropdown-toggle no-arrow" href="{{ route('admin.settings') }}">
+							<a class="dropdown-toggle no-arrow" href="{{ route('admin.settings.index'), $setting->id }}">
                                 {{-- <i class="bi bi-gear"></i> <!-- Bootstrap gear icon --> --}}
 								<span class="micon bi bi-gear"></span
 									><span class="mtext">Settings</span>

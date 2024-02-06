@@ -26,5 +26,6 @@ class AppServiceProvider extends ServiceProvider
             'description' => 'Fake Description'
         ]);
        });
+       view()->share('setting', $setting);
     }
 }
