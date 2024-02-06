@@ -70,7 +70,7 @@
 
                             <div class="form-group">
                                 <label class="col-form-label">description </label>
-                                <textarea rows="5" cols="12" name="description"></textarea>
+                                <textarea rows="3" cols="12" name="description" class="form-control"></textarea>
                             </div>
                             <div class="form-group">
                                 <label for="validationCustom02" class="col-form-label"><span>*</span>
